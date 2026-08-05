@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://database:5432/teamflow
+    username: teamflow
+    password: teamflow
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: false
